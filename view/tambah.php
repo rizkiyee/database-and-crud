@@ -9,6 +9,7 @@ if(adaPermintaanProsesTambah()){
 }else {
     tampilkanFormulirTambahPeserta();
 }
+
     
 function adaPermintaanProsesTambah(){
     if(isset($_POST['email']) && isset($_POST['nama'])){

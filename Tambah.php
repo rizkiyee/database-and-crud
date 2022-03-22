@@ -21,3 +21,7 @@ function adaPermintaanProsesTambah(){
 function tampilkanFormulirTambahPeserta(){
     require_once 'view/view-tambah-peserta.php';
 }
+
+function kirimKeHalamanUtama($pesan){
+    header("Location: index.php?pesan=$pesan");
+}
